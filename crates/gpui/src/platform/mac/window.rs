@@ -1017,7 +1017,7 @@ impl PlatformWindow for MacWindow {
             .update_transparency(background_appearance != WindowBackgroundAppearance::Opaque);
 
         let blur_radius = if background_appearance == WindowBackgroundAppearance::Blurred {
-            80
+            10
         } else {
             0
         };
